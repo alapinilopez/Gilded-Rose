@@ -1,7 +1,8 @@
 from mimetypes import init
-from src.normalItem import NormalItem
+from item import Item
+from src.item import Item
 
-class Sulfuras(NormalItem):
+class Sulfuras(Item):
     def __init__(self, name, sellIn, quality):
         super().__init__(name, sellIn, quality)
     

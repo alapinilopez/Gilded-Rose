@@ -1,6 +1,7 @@
+from item import Item
 from src.normalItem import NormalItem
 
-class Concert(NormalItem):
+class Concert(Item):
     def __init__(self, name, sellIn, quality):
         super().__init__(name, sellIn, quality)
     

@@ -1,6 +1,5 @@
 from src.normalItem import NormalItem
 
-
 class AgedBrie(NormalItem):
     def __init__(self, name, sellIn, quality):
         super().__init__(name, sellIn, quality)
